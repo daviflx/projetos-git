@@ -9,3 +9,11 @@
 - git log --oneline -n 2 : Retornar os dois últimos commits mais recentes de forma resumida.
 - git push origin main: envia seus commits do repositório local para o remoto (branch 'main').
 - git pull origin main: Baixa os commits do repositório remoto para o local (branch 'main').
+
+## Fluxo de trabalho
+1. Criar nova branch
+2. Aplicar mudanças com commits atômicos
+3. Enviar commits para o repositório remoto
+4. Abrir _pull request_
+5. Indicar revisores
+6. Após divisaõ, dar um merge.
